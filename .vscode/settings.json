@@ -1,0 +1,17 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.portWin": "COM6",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "ui.h": "c",
+        "bsp_i2c.h": "c",
+        "lvgl.h": "c"
+    },
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.espIdfPath": "/Users/felix/esp/v5.0.2/esp-idf",
+    "idf.toolsPath": "/Users/felix/.espressif",
+    "idf.port": "/dev/tty.wchusbserial210"
+}

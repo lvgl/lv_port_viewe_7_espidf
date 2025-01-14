@@ -1,0 +1,14 @@
+idf_component_register(
+    SRC_DIRS
+        "." 
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+    lvgl_esp32_drivers
+        driver
+        spiffs
+        esp_common 
+        log
+        esp_timer
+        lvgl
+    )
