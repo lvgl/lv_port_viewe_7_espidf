@@ -10,7 +10,7 @@ You can purchase Viewe ESP32 7 Inch 800×480 from https://viewedisplay.com/produ
 
 ## Benchmark
 
-Describe the default buffering and other configuration.
+ESP LCD Peripheral API is used to drive the display.
 esp_lcd_rgb_panel two framebuffers are used as LVGL draw buffers with LV_DISPLAY_RENDER_MODE_DIRECT mode
 
 YouTube video link

@@ -1671,7 +1671,7 @@ CONFIG_WPA_MBEDTLS_TLS_CLIENT=y
 #
 # LVGL configuration
 #
-# CONFIG_LV_CONF_SKIP=y
+# CONFIG_LV_CONF_SKIP is not set
 # CONFIG_LV_CONF_MINIMAL is not set
 
 #
