@@ -218,12 +218,6 @@ void lv_port_disp_init(void)
 
     lv_display_set_user_data(disp_drv, panel_handle);
 
-#if CONFIG_EXAMPLE_DOUBLE_FB
-    // disp_drv.full_refresh = true; // the full_refresh mode can maintain the synchronization between the two frame buffers
-#endif
-
-
-    // lcd_draw_picture_test(panel_handle);
 
 }
 

@@ -98,7 +98,6 @@ void lv_port_indev_init(void)
     indev_drv = lv_indev_create();
     lv_indev_set_type(indev_drv, LV_INDEV_TYPE_POINTER);
     lv_indev_set_read_cb(indev_drv, touchpad_read);
-    // indev_touchpad = lv_indev_drv_register(&indev_drv);
     
 #if 0
     /*------------------
