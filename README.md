@@ -2,7 +2,7 @@
 
 ## Overview
 
-Short overview
+The ESP32 7-Inch RGB Display, designed and developed by Viewe Display, features an 800×480 resolution with 300 cd/m² brightness and multi-point capacitive touch. Powered by an ESP32-S3 (240MHz) with 8MB RAM and 16MB Flash, it supports Wi-Fi, BLE 5, and BLE Mesh. Designed for Arduino, ESP-IDF, and LVGL platforms, it offers UART and USB interfaces for versatile IoT and AIoT applications.
 
 ## Buy
 
@@ -10,8 +10,7 @@ You can purchase Viewe ESP32 7 Inch 800×480 from https://viewedisplay.com/produ
 
 ## Benchmark
 
-ESP LCD Peripheral API is used to drive the display.
-esp_lcd_rgb_panel two framebuffers are used as LVGL draw buffers with LV_DISPLAY_RENDER_MODE_DIRECT mode
+ESP LCD Peripheral API is used to drive the display. Two internal framebuffers allocated by the driver in the display are used as LVGL draw buffers with LV_DISPLAY_RENDER_MODE_DIRECT mode.
 
 YouTube video link
 
@@ -39,12 +38,10 @@ YouTube video link
 ## Getting started
 
 ### Hardware setup
-- jumpers, switches
-- connect the display
-- Connect Type-C cable to UART (recommended) or USB port
+- Connect Type-C cable to UART (recommended) or USB port on the board
 
 ### Software setup
-- Install drivers if needed
+- Install CH340G drivers for UART chip
 - Install the VS Code IDE & PlatformIO extension
 
 ### Run the project
@@ -55,12 +52,9 @@ YouTube video link
 - Run or Debug. Alternatively click on the fire icon (ESP-IDF: Build, Flash & Monitor) to run flash and debug the code
 
 ### Debugging
-- Debug, ESP Logging Library `ESP_LOGE, ESP_LOGI ...`?
-- Other?
--
-## Notes
+- Debug using ESP Logging Library `ESP_LOGE, ESP_LOGI ...`
+- After flashing (ESP-IDF: Build, Flash & Monitor), a terminal will appear showing the logs
 
-Other notes, e.g. different configs, optimization opportunities, adding other libraries to the project, etc
 
 ## Contribution and Support
 
