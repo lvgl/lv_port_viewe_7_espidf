@@ -11,7 +11,7 @@
         "interface/ftdi/esp32_devkitj_v1.cfg",
         "target/esp32.cfg"
     ],
-    "idf.espIdfPath": "/Users/felix/esp/v5.0.2/esp-idf",
+    "idf.espIdfPath": "/Users/felix/esp/master/esp-idf",
     "idf.toolsPath": "/Users/felix/.espressif",
-    "idf.port": "/dev/tty.wchusbserial210"
+    "idf.port": "/dev/tty.wchusbserial1120"
 }
