@@ -13,8 +13,7 @@ You can purchase Viewe ESP32 7 Inch 800×480 from https://viewedisplay.com/produ
 ESP LCD Peripheral API is used to drive the display. Two internal framebuffers allocated by the driver in the display are used as LVGL draw buffers with `LV_DISPLAY_RENDER_MODE_DIRECT` mode.
 
 Check out Viewe ESP32 S3 Smart Display in action, running LVGL's benchmark demo:
-[![image](assets/preview.png)
-](https://www.youtube.com/watch?v=uHdSQY_k2Mg)
+<a href="https://www.youtube.com/watch?v=uHdSQY_k2Mg"> <img src="assets/preview.png"  width="70%"/> </a>
 
 ## Specification
 
