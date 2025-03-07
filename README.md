@@ -2,11 +2,11 @@
 
 ## Overview
 
-The ESP32 7-Inch RGB Display, designed and developed by Viewe Display, features an 800×480 resolution with 300 cd/m² brightness and multi-point capacitive touch. Powered by an ESP32-S3 (240MHz) with 8MB RAM and 16MB Flash, it supports Wi-Fi, BLE 5, and BLE Mesh. Designed for Arduino, ESP-IDF, and LVGL platforms, it offers UART and USB interfaces for versatile IoT and AIoT applications.
+The Viewe ESP32 S3 Smart Display, designed and developed by Viewe Display, features an 800×480 resolution with 300 cd/m² brightness and multi-point capacitive touch. Powered by an ESP32-S3 (240MHz) with 8MB RAM and 16MB Flash, it supports Wi-Fi, BLE 5, and BLE Mesh. Designed for Arduino, ESP-IDF, and LVGL platforms, it offers UART and USB interfaces for versatile IoT and AIoT applications.
 
 ## Buy
 
-You can purchase Viewe ESP32 7 Inch 800×480 from https://viewedisplay.com/product/esp32-7-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl-uart/
+You can purchase Viewe ESP32 S3 Smart Display from https://viewedisplay.com/product/esp32-7-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl-uart/
 
 ## Benchmark
 
