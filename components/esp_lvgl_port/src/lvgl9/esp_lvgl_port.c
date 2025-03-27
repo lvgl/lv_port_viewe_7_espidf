@@ -200,6 +200,33 @@ IRAM_ATTR bool lvgl_port_task_notify(uint32_t value)
     return (need_yield == pdTRUE);
 }
 
+void my_print(lv_log_level_t level, const char * buf)
+{
+    esp_log_level_t lvl = ESP_LOG_NONE;
+
+    switch(level){
+        case LV_LOG_LEVEL_TRACE:
+            lvl = ESP_LOG_VERBOSE;
+            break;
+        case LV_LOG_LEVEL_INFO:
+            lvl = ESP_LOG_INFO;
+            break;
+        case LV_LOG_LEVEL_WARN:
+            lvl = ESP_LOG_WARN;
+            break;
+        case LV_LOG_LEVEL_ERROR:
+            lvl = ESP_LOG_ERROR;
+            break;
+        case LV_LOG_LEVEL_USER:
+            lvl = ESP_LOG_DEBUG;
+            break;
+        case LV_LOG_LEVEL_NONE:
+            lvl = ESP_LOG_NONE;
+            break;
+    }
+    ESP_LOG_LEVEL(lvl, TAG, "%s", buf);
+}
+
 /*******************************************************************************
 * Private functions
 *******************************************************************************/
@@ -221,6 +248,8 @@ static void lvgl_port_task(void *arg)
     lv_init();
     /* Tick init */
     lvgl_port_tick_init();
+
+    lv_log_register_print_cb(my_print);
 
     ESP_LOGI(TAG, "Starting LVGL task");
     lvgl_port_ctx.running = true;

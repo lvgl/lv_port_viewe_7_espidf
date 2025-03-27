@@ -15,6 +15,29 @@ ESP LCD Peripheral API is used to drive the display. Two internal framebuffers a
 Check out Viewe ESP32 S3 Smart Display in action, running LVGL's benchmark demo:
 <a href="https://www.youtube.com/watch?v=uHdSQY_k2Mg"> <img src="assets/preview.png"  width="70%"/> </a>
 
+
+### Benchmark Summary (9.3.0 dev)
+
+| Name                      | Avg. CPU  | Avg. FPS  | Avg. time | render time   | flush time    |
+| ------------------------- | --------- | --------- | --------- | ------------- | ------------- |
+| Empty screen	            | 90%       | 17        | 50        | 28            | 22            |
+| Moving wallpaper          | 97%       | 13        | 71        | 63            | 8             |
+| Single rectangle          | 57%       | 25        | 19        | 4             | 15            |
+| Multiple rectangles       | 73%       | 23        | 29        | 15            | 14            |
+| Multiple RGB images       | 73%       | 23        | 23        | 10            | 13            |
+| Multiple ARGB images      | 88%       | 16        | 50        | 26            | 24            |
+| Rotated ARGB images       | 95%       | 14        | 63        | 44            | 19            |
+| Multiple labels           | 85%       | 19        | 43        | 24            | 19            |
+| Screen sized text         | 96%       | 9         | 99        | 79            | 20            |
+| Multiple arcs             | 79%       | 22        | 29        | 17            | 12            |
+| Containers                | 90%       | 14        | 54        | 34            | 20            |
+| Containers with overlay   | 93%       | 10        | 75        | 63            | 12            |
+| Containers with opa       | 94%       | 14        | 59        | 43            | 16            |
+| Containers with opa_layer | 96%       | 8         | 101       | 94            | 7             |
+| Containers with scrolling | 95%       | 14        | 64        | 52            | 12            |
+| Widgets demo	            | 96%       | 8         | 89        | 69            | 20            |
+| All scenes avg.           | 87%       | 15        | 56        | 41            | 15            |
+
 ## Specification
 
 ### CPU and Memory
