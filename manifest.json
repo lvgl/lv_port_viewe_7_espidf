@@ -11,7 +11,7 @@
     ],
     "hardware": {
         "chipVendor": "Espressif",
-        "manufacturer": "Viewe Display",
+        "manufacturer": "Viewe",
         "specs": {
             "MCU": "ESP32-S3 (240MHz)",
             "RAM": "512 KB (internal), 8MB (external)",
