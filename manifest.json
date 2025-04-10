@@ -36,6 +36,7 @@
         "release/v9.2"
     ],
     "image": "https://raw.githubusercontent.com/lvgl/lv_port_viewe_7_espidf/master/board_images/board.png",
+    "buy_now_links": ["https://viewedisplay.com/iot_aiot-smart-display/"],
     "settings": [
         {
             "type": "dropdown",
